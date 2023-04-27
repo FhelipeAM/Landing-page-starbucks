@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- folha de estilo -->
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <script src="index.js"></script>
+    <link rel="shortcut icon" href="img/starbucks-favicon.png" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- título da aba -->
+    <title>starbucks</title>
+</head>
+<header>
+    <!-- div do cabeçário -->
+    <div class="site-top">
+        <!-- logo no lado direito da pagina -->
+        <a href="https://www.starbucks.com"><img class="logo" src="img/logo.png"></a>
+        <!-- links de redirecionamento ao lado da pagina -->
+        <a class="links" id="left" href="https://www.starbucks.com">Home</a> <!-- retorna a pagina principal -->
+        <a class="links" href="https://www.starbucks.com/menu">Menu</a> <!-- lista de itens a venda do starbucks --> 
+        <a class="links" href="https://www.starbucks.com/updates">Novidades</a> <!-- (indisponivel) atualizações do site -->
+        <a class="links" href="https://www.starbucks.com/store-locator?map=39.635307,-101.337891,5z">Lojas</a> <!-- localização de lojas -->
+    </div>
+</header>
+
+<body>
+    <!-- div dos itens no body -->
+    <div class="main">
+        <div class="subtitle"> <!-- div para o destaque que fica na esquerda --> 
+            <h2>Não é apenas um café, é: <br> <span class="greentxt">starbucks</span></h2> <!-- span para fazer destaque ao nome da impresa -->
+            <p class="subtext">Descubra um mundo de sabores inesqueciveis com a starbucks. Cada <br> colherada é uma explosão de sabores irresistiveis que vão te conquistar!</p> <!-- placeholder -->
+            <input type="button" value="Veja Mais" class="highlight-button"> <!-- botão de Ver mais -->
+        </div>
+        
+        <div class="drinks-high">
+            
+
+            <div class="background-highlight-color" id="circle"></div> <!-- circulo verde de destaque atrás dos drinks -->
+            <img class="img-highlight" src="img/img1.png"> <!-- imagem do destaque -->
+            
+            <div class="social-media">
+                <img class="fb-img" src="img/facebook.png">
+                <img class="tw-img" src="img/twitter.png">
+                <img class="ig-img" src="img/instagram.png">
+            </div>
+
+        </div>
+        <div class="drink-choose"> <!-- escolha dos drinks -->
+            <label><button type="button"><img class="highlight-chooser" id="green" src="img/thumb1.png"></label>
+            <img class="highlight-chooser" id="pink" src="img/thumb2.png">
+            <img class="highlight-chooser" id="pinker" src="img/thumb3.png">
+        </div>
+    </div>
+</body>
+</html>
